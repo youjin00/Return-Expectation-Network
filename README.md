@@ -6,6 +6,9 @@ This project is a customized implementation of a stock price prediction model ba
 이 프로젝트는 Jiawei Wang와 Zhen Chen의 논문 [Factor-GAN: Enhancing Stock Price Prediction and Factor Investment with Generative Adversarial Networks](https://doi.org/10.1371/journal.pone.0306094)을 기반으로 하여 CNN-LSTM 하이브리드 구조를 활용한 주식 가격 예측 모델을 커스터마이징한 것입니다. 원래의 Factor-GAN 모델은 GAN을 사용하여 주식 가격을 예측하고 팩터 투자 전략을 최적화합니다. 하지만, 이 구현에서는 GAN 대신 CNN과 LSTM 네트워크를 결합하여 금융 데이터의 공간적 및 시간적 종속성을 포착합니다.
 
 #### Key Features / 주요 특징
+
+![Algo](알고리즘.jpg)
+
 1. **Hybrid CNN-LSTM Architecture / 하이브리드 CNN-LSTM 아키텍처**
    - Combines CNN for feature extraction and LSTM for sequential learning.
    - CNN을 통한 특징 추출과 LSTM을 이용한 시계열 학습을 결합.
